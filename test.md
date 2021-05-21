@@ -1,9 +1,9 @@
-#機能一覧
-###サンプルECサイト機能一覧
-**1.フロント**
+```UML
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
 
-|番号|機能名|内容|データ出力|備考|
-|:---|:---|:---|:---|:---|:---|
-|1-1|商品一覧ページ|商品一覧表示する||||
-|1-2|商品詳細ページ|説明文、商品画像を拡大表示<br>選択、
-カートへボタン表示|〇|||
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
+```
